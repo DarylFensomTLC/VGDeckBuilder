@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[VGDeck toXML]:VGDeck.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VGDeckViewerViewController saveDeckToXML]:VGDeckViewerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "xmlString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

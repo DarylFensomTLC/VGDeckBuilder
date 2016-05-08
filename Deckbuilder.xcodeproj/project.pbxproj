@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FA654B17F58C8200A2E762 /* look.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA654817F58C8200A2E762 /* look.png */; };
+		01FA654C17F58C8200A2E762 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA654917F58C8200A2E762 /* download.png */; };
+		01FA654D17F58C8200A2E762 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA654A17F58C8200A2E762 /* note.png */; };
+		01FA654F17F58D1C00A2E762 /* global.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA654E17F58D1C00A2E762 /* global.png */; };
+		7B0391561779C7E4007900F4 /* deckBuilderLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0391551779C7E4007900F4 /* deckBuilderLogo.png */; };
+		7B07F8CF17B3ACFA00A9672F /* placeholderCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07F8CE17B3ACFA00A9672F /* placeholderCard.png */; };
+		7B0DAB6B174423B400D35093 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0DAB6A174423B400D35093 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B0DAB6D17442FFE00D35093 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0DAB6C17442FFE00D35093 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B1494411731B7CD00F5CB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1494401731B7CD00F5CB5E /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B1494431731B7CD00F5CB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1494421731B7CD00F5CB5E /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B1494451731B7CD00F5CB5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1494441731B7CD00F5CB5E /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B14944B1731B7CD00F5CB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B1494491731B7CD00F5CB5E /* InfoPlist.strings */; };
+		7B14944D1731B7CD00F5CB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B14944C1731B7CD00F5CB5E /* main.m */; };
+		7B1494511731B7CD00F5CB5E /* VGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1494501731B7CD00F5CB5E /* VGAppDelegate.m */; };
+		7B14945A1731B7CE00F5CB5E /* VGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1494591731B7CE00F5CB5E /* VGViewController.m */; };
+		7B14945D1731B7CE00F5CB5E /* VGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B14945B1731B7CE00F5CB5E /* VGViewController.xib */; };
+		7B1494641731B88300F5CB5E /* VGCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1494631731B88200F5CB5E /* VGCardsViewController.xib */; };
+		7B1494671731BC6B00F5CB5E /* VGCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1494661731BC6B00F5CB5E /* VGCardsViewController.m */; };
+		7B21A76D1AB445DB00655EFB /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B21A76C1AB445DB00655EFB /* facebook-icon.png */; };
+		7B21A76F1AB4C88900655EFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B21A76E1AB4C88900655EFB /* Images.xcassets */; };
+		7B4069C617BE7E1F00F65FDA /* background_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4069C517BE7E1F00F65FDA /* background_grey.png */; };
+		7B46C03F17498FE300838B17 /* background_linen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B46C03E17498FE300838B17 /* background_linen.png */; };
+		7B51B24217ABAEC800D65303 /* VGCardCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B51B24117ABAEC800D65303 /* VGCardCellView.xib */; };
+		7B51B24517ABB30200D65303 /* VGCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B51B24417ABB30200D65303 /* VGCardCell.m */; };
+		7B51B24817ABE68900D65303 /* VGImageToGrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B51B24717ABE68900D65303 /* VGImageToGrab.m */; };
+		7B685AC71A9D1F1E00EA51BB /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B685AC61A9D1D6D00EA51BB /* Lato-Regular.ttf */; };
+		7B6E315817392DC100425727 /* VGCardDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E315717392DC100425727 /* VGCardDetailViewController.xib */; };
+		7B6E317017399DED00425727 /* VGCardsXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E316F17399DED00425727 /* VGCardsXMLParser.m */; };
+		7B6E317A173A744A00425727 /* VGCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3179173A744A00425727 /* VGCardDetailViewController.m */; };
+		7B6E317D173A89DB00425727 /* VGCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E317C173A864200425727 /* VGCard.m */; };
+		7B81D34D173BECB200C4869C /* VGAdvancedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B81D34C173BECB200C4869C /* VGAdvancedSearchViewController.m */; };
+		7B9FC37A17B138000088B734 /* VGDownloadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FC37917B138000088B734 /* VGDownloadImageOperation.m */; };
+		7BAAFD3F1742ED8A001B16D5 /* Remove-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BAAFD3E1742ED8A001B16D5 /* Remove-icon.png */; };
+		7BC219A7174815CA00D89773 /* plus_add_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219A6174815CA00D89773 /* plus_add_green.png */; };
+		7BC219AB1748DF6400D89773 /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219AA1748DF6400D89773 /* 44-shoebox.png */; };
+		7BC219AD1748DFD200D89773 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219AC1748DFD200D89773 /* 06-magnify.png */; };
+		7BC219AF1748E7E000D89773 /* 57-download.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219AE1748E7E000D89773 /* 57-download.png */; };
+		7BC219B11748E91E00D89773 /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219B01748E91E00D89773 /* 162-receipt.png */; };
+		7BC219B41748FC6A00D89773 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC219B31748F14800D89773 /* MBProgressHUD.m */; };
+		7BC219B6174918F400D89773 /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC219B5174918F400D89773 /* 18-envelope.png */; };
+		7BCCECCB176496A800DBE0A9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECB8176496A800DBE0A9 /* SBJsonParser.m */; };
+		7BCCECCC176496A800DBE0A9 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECBA176496A800DBE0A9 /* SBJsonStreamParser.m */; };
+		7BCCECCD176496A800DBE0A9 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECBC176496A800DBE0A9 /* SBJsonStreamParserAccumulator.m */; };
+		7BCCECCE176496A800DBE0A9 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECBE176496A800DBE0A9 /* SBJsonStreamParserAdapter.m */; };
+		7BCCECCF176496A800DBE0A9 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECC0176496A800DBE0A9 /* SBJsonStreamParserState.m */; };
+		7BCCECD0176496A800DBE0A9 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECC2176496A800DBE0A9 /* SBJsonStreamTokeniser.m */; };
+		7BCCECD1176496A800DBE0A9 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECC4176496A800DBE0A9 /* SBJsonStreamWriter.m */; };
+		7BCCECD2176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECC6176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.m */; };
+		7BCCECD3176496A800DBE0A9 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECC8176496A800DBE0A9 /* SBJsonStreamWriterState.m */; };
+		7BCCECD4176496A800DBE0A9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCECCA176496A800DBE0A9 /* SBJsonWriter.m */; };
+		7BCE67371745AED1003D50DC /* VGHandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE67361745AED1003D50DC /* VGHandViewController.m */; };
+		7BCE67391745AF0E003D50DC /* VGHandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE67381745AF0D003D50DC /* VGHandViewController.xib */; };
+		7BCF712817BD0D24001C2B60 /* VGSelectSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF712717BD0D24001C2B60 /* VGSelectSetViewController.m */; };
+		7BCF712A17BD166D001C2B60 /* VGSelectSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF712917BD166D001C2B60 /* VGSelectSetViewController.xib */; };
+		7BD2ADBD173D120D00D2E9FB /* VGBlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2ADBC173D120C00D2E9FB /* VGBlankViewController.m */; };
+		7BD2ADC1173D1AD700D2E9FB /* VGAdvancedSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD2ADC0173D1AD700D2E9FB /* VGAdvancedSearchView.xib */; };
+		7BD2ADC3173EEF7200D2E9FB /* VGDeckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD2ADC2173EEF7200D2E9FB /* VGDeckView.xib */; };
+		7BD2ADC6173EF1AA00D2E9FB /* VGDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2ADC5173EF1AA00D2E9FB /* VGDeck.m */; };
+		7BD2ADC9173EF37E00D2E9FB /* VGDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2ADC8173EF37E00D2E9FB /* VGDeckViewController.m */; };
+		7BD2ADCB173EFC0800D2E9FB /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD2ADCA173EFC0800D2E9FB /* 10-medical.png */; };
+		7BD2ADD4173FA96800D2E9FB /* VGAddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2ADD2173FA96800D2E9FB /* VGAddCardViewController.m */; };
+		7BD2ADD5173FA96800D2E9FB /* VGAddCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD2ADD3173FA96800D2E9FB /* VGAddCardViewController.xib */; };
+		7BD2ADDC1740488400D2E9FB /* VGDecksXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2ADDB1740488300D2E9FB /* VGDecksXMLParser.m */; };
+		7BE668CE1742771C0019D010 /* VGDeckViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE668CC1742771C0019D010 /* VGDeckViewerViewController.m */; };
+		7BE668CF1742771C0019D010 /* VGDeckViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE668CD1742771C0019D010 /* VGDeckViewerViewController.xib */; };
+		7BE668D1174285B60019D010 /* DeckLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE668D0174285B60019D010 /* DeckLogo.png */; };
+		7BE668D4174288B70019D010 /* VGDeckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE668D3174288B70019D010 /* VGDeckCell.m */; };
+		7BE668D91742C8040019D010 /* VGDeckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE668D81742C8040019D010 /* VGDeckCell.xib */; };
+		7BEF1E4617BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF1E4517BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.m */; };
+		7BF21EB9174AB69700B3F9AC /* vgappicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF21EB8174AB69700B3F9AC /* vgappicon.png */; };
+		7BF21EBB174AB69900B3F9AC /* vgapplogoretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF21EBA174AB69900B3F9AC /* vgapplogoretina.png */; };
+		7BF21EBD174AB6FA00B3F9AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF21EBC174AB6FA00B3F9AC /* Default.png */; };
+		7BF21EBF174AB70000B3F9AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF21EBE174AB70000B3F9AC /* Default@2x.png */; };
+		7BF21EC1174AB70700B3F9AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF21EC0174AB70700B3F9AC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01510971181F06A900354D3B /* Deckbuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deckbuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA654817F58C8200A2E762 /* look.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = look.png; sourceTree = "<group>"; };
+		01FA654917F58C8200A2E762 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		01FA654A17F58C8200A2E762 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		01FA654E17F58D1C00A2E762 /* global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = global.png; sourceTree = "<group>"; };
+		7B0391551779C7E4007900F4 /* deckBuilderLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deckBuilderLogo.png; sourceTree = "<group>"; };
+		7B07F8CE17B3ACFA00A9672F /* placeholderCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholderCard.png; path = VGApp/placeholderCard.png; sourceTree = "<group>"; };
+		7B0DAB6A174423B400D35093 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7B0DAB6C17442FFE00D35093 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7B1494401731B7CD00F5CB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B1494421731B7CD00F5CB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B1494441731B7CD00F5CB5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B1494481731B7CD00F5CB5E /* Deckbuilder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Deckbuilder-Info.plist"; sourceTree = "<group>"; };
+		7B14944A1731B7CD00F5CB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B14944C1731B7CD00F5CB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B14944E1731B7CD00F5CB5E /* Deckbuilder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deckbuilder-Prefix.pch"; sourceTree = "<group>"; };
+		7B14944F1731B7CD00F5CB5E /* VGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGAppDelegate.h; sourceTree = "<group>"; };
+		7B1494501731B7CD00F5CB5E /* VGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGAppDelegate.m; sourceTree = "<group>"; };
+		7B1494581731B7CE00F5CB5E /* VGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGViewController.h; sourceTree = "<group>"; };
+		7B1494591731B7CE00F5CB5E /* VGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGViewController.m; sourceTree = "<group>"; };
+		7B14945C1731B7CE00F5CB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VGViewController.xib; sourceTree = "<group>"; };
+		7B1494631731B88200F5CB5E /* VGCardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGCardsViewController.xib; sourceTree = "<group>"; };
+		7B1494651731BC6B00F5CB5E /* VGCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGCardsViewController.h; sourceTree = "<group>"; };
+		7B1494661731BC6B00F5CB5E /* VGCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGCardsViewController.m; sourceTree = "<group>"; };
+		7B21A76C1AB445DB00655EFB /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-icon.png"; sourceTree = "<group>"; };
+		7B21A76E1AB4C88900655EFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Deckbuilder/Images.xcassets; sourceTree = "<group>"; };
+		7B4069C517BE7E1F00F65FDA /* background_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_grey.png; path = VGApp/background_grey.png; sourceTree = "<group>"; };
+		7B46C03E17498FE300838B17 /* background_linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_linen.png; sourceTree = "<group>"; };
+		7B51B24117ABAEC800D65303 /* VGCardCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGCardCellView.xib; sourceTree = "<group>"; };
+		7B51B24317ABB30200D65303 /* VGCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGCardCell.h; sourceTree = "<group>"; };
+		7B51B24417ABB30200D65303 /* VGCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGCardCell.m; sourceTree = "<group>"; };
+		7B51B24617ABE68900D65303 /* VGImageToGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGImageToGrab.h; sourceTree = "<group>"; };
+		7B51B24717ABE68900D65303 /* VGImageToGrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGImageToGrab.m; sourceTree = "<group>"; };
+		7B685AC61A9D1D6D00EA51BB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7B6E315717392DC100425727 /* VGCardDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGCardDetailViewController.xib; sourceTree = "<group>"; };
+		7B6E316E17399DED00425727 /* VGCardsXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGCardsXMLParser.h; sourceTree = "<group>"; };
+		7B6E316F17399DED00425727 /* VGCardsXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGCardsXMLParser.m; sourceTree = "<group>"; };
+		7B6E3178173A744A00425727 /* VGCardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGCardDetailViewController.h; sourceTree = "<group>"; };
+		7B6E3179173A744A00425727 /* VGCardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGCardDetailViewController.m; sourceTree = "<group>"; };
+		7B6E317B173A864200425727 /* VGCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGCard.h; sourceTree = "<group>"; };
+		7B6E317C173A864200425727 /* VGCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGCard.m; sourceTree = "<group>"; };
+		7B81D34B173BECB100C4869C /* VGAdvancedSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAdvancedSearchViewController.h; sourceTree = "<group>"; };
+		7B81D34C173BECB200C4869C /* VGAdvancedSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAdvancedSearchViewController.m; sourceTree = "<group>"; };
+		7B9FC37817B138000088B734 /* VGDownloadImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDownloadImageOperation.h; sourceTree = "<group>"; };
+		7B9FC37917B138000088B734 /* VGDownloadImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDownloadImageOperation.m; sourceTree = "<group>"; };
+		7BAAFD3E1742ED8A001B16D5 /* Remove-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove-icon.png"; sourceTree = "<group>"; };
+		7BC219A6174815CA00D89773 /* plus_add_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_add_green.png; sourceTree = "<group>"; };
+		7BC219AA1748DF6400D89773 /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
+		7BC219AC1748DFD200D89773 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		7BC219AE1748E7E000D89773 /* 57-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57-download.png"; sourceTree = "<group>"; };
+		7BC219B01748E91E00D89773 /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
+		7BC219B21748F14800D89773 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = "<group>"; };
+		7BC219B31748F14800D89773 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
+		7BC219B5174918F400D89773 /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-envelope.png"; sourceTree = "<group>"; };
+		7BCCECB6176496A800DBE0A9 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		7BCCECB7176496A800DBE0A9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7BCCECB8176496A800DBE0A9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7BCCECB9176496A800DBE0A9 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		7BCCECBA176496A800DBE0A9 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		7BCCECBB176496A800DBE0A9 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		7BCCECBC176496A800DBE0A9 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		7BCCECBD176496A800DBE0A9 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		7BCCECBE176496A800DBE0A9 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		7BCCECBF176496A800DBE0A9 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		7BCCECC0176496A800DBE0A9 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		7BCCECC1176496A800DBE0A9 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		7BCCECC2176496A800DBE0A9 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		7BCCECC3176496A800DBE0A9 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		7BCCECC4176496A800DBE0A9 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		7BCCECC5176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		7BCCECC6176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		7BCCECC7176496A800DBE0A9 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		7BCCECC8176496A800DBE0A9 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		7BCCECC9176496A800DBE0A9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7BCCECCA176496A800DBE0A9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7BCE67351745AED1003D50DC /* VGHandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHandViewController.h; sourceTree = "<group>"; };
+		7BCE67361745AED1003D50DC /* VGHandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHandViewController.m; sourceTree = "<group>"; };
+		7BCE67381745AF0D003D50DC /* VGHandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGHandViewController.xib; sourceTree = "<group>"; };
+		7BCF712617BD0D24001C2B60 /* VGSelectSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGSelectSetViewController.h; path = ../VGSelectSetViewController.h; sourceTree = "<group>"; };
+		7BCF712717BD0D24001C2B60 /* VGSelectSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VGSelectSetViewController.m; path = ../VGSelectSetViewController.m; sourceTree = "<group>"; };
+		7BCF712917BD166D001C2B60 /* VGSelectSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGSelectSetViewController.xib; sourceTree = "<group>"; };
+		7BD2ADBB173D120C00D2E9FB /* VGBlankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGBlankViewController.h; path = ../VGBlankViewController.h; sourceTree = "<group>"; };
+		7BD2ADBC173D120C00D2E9FB /* VGBlankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VGBlankViewController.m; path = ../VGBlankViewController.m; sourceTree = "<group>"; };
+		7BD2ADC0173D1AD700D2E9FB /* VGAdvancedSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGAdvancedSearchView.xib; sourceTree = "<group>"; };
+		7BD2ADC2173EEF7200D2E9FB /* VGDeckView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGDeckView.xib; sourceTree = "<group>"; };
+		7BD2ADC4173EF1AA00D2E9FB /* VGDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDeck.h; sourceTree = "<group>"; };
+		7BD2ADC5173EF1AA00D2E9FB /* VGDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDeck.m; sourceTree = "<group>"; };
+		7BD2ADC7173EF37E00D2E9FB /* VGDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDeckViewController.h; sourceTree = "<group>"; };
+		7BD2ADC8173EF37E00D2E9FB /* VGDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDeckViewController.m; sourceTree = "<group>"; };
+		7BD2ADCA173EFC0800D2E9FB /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		7BD2ADD1173FA96800D2E9FB /* VGAddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAddCardViewController.h; sourceTree = "<group>"; };
+		7BD2ADD2173FA96800D2E9FB /* VGAddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAddCardViewController.m; sourceTree = "<group>"; };
+		7BD2ADD3173FA96800D2E9FB /* VGAddCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGAddCardViewController.xib; sourceTree = "<group>"; };
+		7BD2ADDA1740488300D2E9FB /* VGDecksXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDecksXMLParser.h; sourceTree = "<group>"; };
+		7BD2ADDB1740488300D2E9FB /* VGDecksXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDecksXMLParser.m; sourceTree = "<group>"; };
+		7BE668CB1742771C0019D010 /* VGDeckViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDeckViewerViewController.h; sourceTree = "<group>"; };
+		7BE668CC1742771C0019D010 /* VGDeckViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDeckViewerViewController.m; sourceTree = "<group>"; };
+		7BE668CD1742771C0019D010 /* VGDeckViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGDeckViewerViewController.xib; sourceTree = "<group>"; };
+		7BE668D0174285B60019D010 /* DeckLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeckLogo.png; sourceTree = "<group>"; };
+		7BE668D2174288B70019D010 /* VGDeckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDeckCell.h; sourceTree = "<group>"; };
+		7BE668D3174288B70019D010 /* VGDeckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDeckCell.m; sourceTree = "<group>"; };
+		7BE668D81742C8040019D010 /* VGDeckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VGDeckCell.xib; sourceTree = "<group>"; };
+		7BEF1E4417BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGVanguardSelectorActionSheetDelegate.h; path = ../VGVanguardSelectorActionSheetDelegate.h; sourceTree = "<group>"; };
+		7BEF1E4517BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VGVanguardSelectorActionSheetDelegate.m; path = ../VGVanguardSelectorActionSheetDelegate.m; sourceTree = "<group>"; };
+		7BF21EB8174AB69700B3F9AC /* vgappicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vgappicon.png; sourceTree = "<group>"; };
+		7BF21EBA174AB69900B3F9AC /* vgapplogoretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vgapplogoretina.png; sourceTree = "<group>"; };
+		7BF21EBC174AB6FA00B3F9AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7BF21EBE174AB70000B3F9AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7BF21EC0174AB70700B3F9AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B14943A1731B7CD00F5CB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0DAB6B174423B400D35093 /* Social.framework in Frameworks */,
+				7B0DAB6D17442FFE00D35093 /* MessageUI.framework in Frameworks */,
+				7B1494411731B7CD00F5CB5E /* UIKit.framework in Frameworks */,
+				7B1494431731B7CD00F5CB5E /* Foundation.framework in Frameworks */,
+				7B1494451731B7CD00F5CB5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1494341731B7CD00F5CB5E = {
+			isa = PBXGroup;
+			children = (
+				7B21A76E1AB4C88900655EFB /* Images.xcassets */,
+				7B685AC61A9D1D6D00EA51BB /* Lato-Regular.ttf */,
+				7BF21EC0174AB70700B3F9AC /* Default-568h@2x.png */,
+				7BF21EBE174AB70000B3F9AC /* Default@2x.png */,
+				7BF21EBC174AB6FA00B3F9AC /* Default.png */,
+				7B4069C517BE7E1F00F65FDA /* background_grey.png */,
+				7BF21EBA174AB69900B3F9AC /* vgapplogoretina.png */,
+				7B07F8CE17B3ACFA00A9672F /* placeholderCard.png */,
+				7BF21EB8174AB69700B3F9AC /* vgappicon.png */,
+				7B1494461731B7CD00F5CB5E /* VGApp */,
+				7B14943F1731B7CD00F5CB5E /* Frameworks */,
+				01510971181F06A900354D3B /* Deckbuilder.app */,
+			);
+			sourceTree = "<group>";
+		};
+		7B14943F1731B7CD00F5CB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B0DAB6C17442FFE00D35093 /* MessageUI.framework */,
+				7B0DAB6A174423B400D35093 /* Social.framework */,
+				7B1494401731B7CD00F5CB5E /* UIKit.framework */,
+				7B1494421731B7CD00F5CB5E /* Foundation.framework */,
+				7B1494441731B7CD00F5CB5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B1494461731B7CD00F5CB5E /* VGApp */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCECB5176496A800DBE0A9 /* SBJson */,
+				7BC219B31748F14800D89773 /* MBProgressHUD.m */,
+				7BC219B21748F14800D89773 /* MBProgressHUD.h */,
+				7B81D34E173BECCE00C4869C /* Views */,
+				7BD2ADD91740480E00D2E9FB /* Data */,
+				7BD2ADD8173FCF8800D2E9FB /* Deck Edit */,
+				7BD2ADD7173FCF5D00D2E9FB /* Card Detail */,
+				7BD2ADD6173FCEE500D2E9FB /* Card Search */,
+				7BD2ADBB173D120C00D2E9FB /* VGBlankViewController.h */,
+				7BD2ADBC173D120C00D2E9FB /* VGBlankViewController.m */,
+				7B14944F1731B7CD00F5CB5E /* VGAppDelegate.h */,
+				7B1494501731B7CD00F5CB5E /* VGAppDelegate.m */,
+				7B1494581731B7CE00F5CB5E /* VGViewController.h */,
+				7B1494591731B7CE00F5CB5E /* VGViewController.m */,
+				7B6E315D173938DE00425727 /* Images */,
+				7B1494471731B7CD00F5CB5E /* Supporting Files */,
+			);
+			path = VGApp;
+			sourceTree = "<group>";
+		};
+		7B1494471731B7CD00F5CB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1494481731B7CD00F5CB5E /* Deckbuilder-Info.plist */,
+				7B1494491731B7CD00F5CB5E /* InfoPlist.strings */,
+				7B14944C1731B7CD00F5CB5E /* main.m */,
+				7B14944E1731B7CD00F5CB5E /* Deckbuilder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6E315D173938DE00425727 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7B21A76C1AB445DB00655EFB /* facebook-icon.png */,
+				7B0391551779C7E4007900F4 /* deckBuilderLogo.png */,
+				7BC219AC1748DFD200D89773 /* 06-magnify.png */,
+				7BC219AA1748DF6400D89773 /* 44-shoebox.png */,
+				7B46C03E17498FE300838B17 /* background_linen.png */,
+				01FA654E17F58D1C00A2E762 /* global.png */,
+				01FA654817F58C8200A2E762 /* look.png */,
+				01FA654917F58C8200A2E762 /* download.png */,
+				01FA654A17F58C8200A2E762 /* note.png */,
+				7BC219B5174918F400D89773 /* 18-envelope.png */,
+				7BC219A6174815CA00D89773 /* plus_add_green.png */,
+				7BE668D0174285B60019D010 /* DeckLogo.png */,
+				7BD2ADCA173EFC0800D2E9FB /* 10-medical.png */,
+				7BC219AE1748E7E000D89773 /* 57-download.png */,
+				7BAAFD3E1742ED8A001B16D5 /* Remove-icon.png */,
+				7BC219B01748E91E00D89773 /* 162-receipt.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7B81D34E173BECCE00C4869C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B14945B1731B7CE00F5CB5E /* VGViewController.xib */,
+				7BE668CD1742771C0019D010 /* VGDeckViewerViewController.xib */,
+				7BE668D81742C8040019D010 /* VGDeckCell.xib */,
+				7BD2ADC2173EEF7200D2E9FB /* VGDeckView.xib */,
+				7B6E315717392DC100425727 /* VGCardDetailViewController.xib */,
+				7B1494631731B88200F5CB5E /* VGCardsViewController.xib */,
+				7BCE67381745AF0D003D50DC /* VGHandViewController.xib */,
+				7BD2ADD3173FA96800D2E9FB /* VGAddCardViewController.xib */,
+				7B51B24117ABAEC800D65303 /* VGCardCellView.xib */,
+				7BCF712917BD166D001C2B60 /* VGSelectSetViewController.xib */,
+				7BD2ADC0173D1AD700D2E9FB /* VGAdvancedSearchView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7BCCECB5176496A800DBE0A9 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCECB6176496A800DBE0A9 /* SBJson.h */,
+				7BCCECB7176496A800DBE0A9 /* SBJsonParser.h */,
+				7BCCECB8176496A800DBE0A9 /* SBJsonParser.m */,
+				7BCCECB9176496A800DBE0A9 /* SBJsonStreamParser.h */,
+				7BCCECBA176496A800DBE0A9 /* SBJsonStreamParser.m */,
+				7BCCECBB176496A800DBE0A9 /* SBJsonStreamParserAccumulator.h */,
+				7BCCECBC176496A800DBE0A9 /* SBJsonStreamParserAccumulator.m */,
+				7BCCECBD176496A800DBE0A9 /* SBJsonStreamParserAdapter.h */,
+				7BCCECBE176496A800DBE0A9 /* SBJsonStreamParserAdapter.m */,
+				7BCCECBF176496A800DBE0A9 /* SBJsonStreamParserState.h */,
+				7BCCECC0176496A800DBE0A9 /* SBJsonStreamParserState.m */,
+				7BCCECC1176496A800DBE0A9 /* SBJsonStreamTokeniser.h */,
+				7BCCECC2176496A800DBE0A9 /* SBJsonStreamTokeniser.m */,
+				7BCCECC3176496A800DBE0A9 /* SBJsonStreamWriter.h */,
+				7BCCECC4176496A800DBE0A9 /* SBJsonStreamWriter.m */,
+				7BCCECC5176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.h */,
+				7BCCECC6176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.m */,
+				7BCCECC7176496A800DBE0A9 /* SBJsonStreamWriterState.h */,
+				7BCCECC8176496A800DBE0A9 /* SBJsonStreamWriterState.m */,
+				7BCCECC9176496A800DBE0A9 /* SBJsonWriter.h */,
+				7BCCECCA176496A800DBE0A9 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		7BD2ADD6173FCEE500D2E9FB /* Card Search */ = {
+			isa = PBXGroup;
+			children = (
+				7B1494651731BC6B00F5CB5E /* VGCardsViewController.h */,
+				7B1494661731BC6B00F5CB5E /* VGCardsViewController.m */,
+				7B81D34B173BECB100C4869C /* VGAdvancedSearchViewController.h */,
+				7B81D34C173BECB200C4869C /* VGAdvancedSearchViewController.m */,
+			);
+			name = "Card Search";
+			sourceTree = "<group>";
+		};
+		7BD2ADD7173FCF5D00D2E9FB /* Card Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7B6E3178173A744A00425727 /* VGCardDetailViewController.h */,
+				7B6E3179173A744A00425727 /* VGCardDetailViewController.m */,
+				7BCF712617BD0D24001C2B60 /* VGSelectSetViewController.h */,
+				7BCF712717BD0D24001C2B60 /* VGSelectSetViewController.m */,
+				7BD2ADD1173FA96800D2E9FB /* VGAddCardViewController.h */,
+				7BD2ADD2173FA96800D2E9FB /* VGAddCardViewController.m */,
+			);
+			name = "Card Detail";
+			sourceTree = "<group>";
+		};
+		7BD2ADD8173FCF8800D2E9FB /* Deck Edit */ = {
+			isa = PBXGroup;
+			children = (
+				7BE668CB1742771C0019D010 /* VGDeckViewerViewController.h */,
+				7BE668CC1742771C0019D010 /* VGDeckViewerViewController.m */,
+				7BD2ADC7173EF37E00D2E9FB /* VGDeckViewController.h */,
+				7BD2ADC8173EF37E00D2E9FB /* VGDeckViewController.m */,
+				7B51B24617ABE68900D65303 /* VGImageToGrab.h */,
+				7B51B24717ABE68900D65303 /* VGImageToGrab.m */,
+				7BE668D2174288B70019D010 /* VGDeckCell.h */,
+				7BE668D3174288B70019D010 /* VGDeckCell.m */,
+				7BCE67351745AED1003D50DC /* VGHandViewController.h */,
+				7BCE67361745AED1003D50DC /* VGHandViewController.m */,
+			);
+			name = "Deck Edit";
+			sourceTree = "<group>";
+		};
+		7BD2ADD91740480E00D2E9FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7B6E316E17399DED00425727 /* VGCardsXMLParser.h */,
+				7B6E316F17399DED00425727 /* VGCardsXMLParser.m */,
+				7B9FC37817B138000088B734 /* VGDownloadImageOperation.h */,
+				7B9FC37917B138000088B734 /* VGDownloadImageOperation.m */,
+				7B6E317B173A864200425727 /* VGCard.h */,
+				7B6E317C173A864200425727 /* VGCard.m */,
+				7BEF1E4417BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.h */,
+				7BEF1E4517BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.m */,
+				7BD2ADC4173EF1AA00D2E9FB /* VGDeck.h */,
+				7BD2ADC5173EF1AA00D2E9FB /* VGDeck.m */,
+				7BD2ADDA1740488300D2E9FB /* VGDecksXMLParser.h */,
+				7BD2ADDB1740488300D2E9FB /* VGDecksXMLParser.m */,
+				7B51B24317ABB30200D65303 /* VGCardCell.h */,
+				7B51B24417ABB30200D65303 /* VGCardCell.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B14943C1731B7CD00F5CB5E /* Deckbuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1494601731B7CE00F5CB5E /* Build configuration list for PBXNativeTarget "Deckbuilder" */;
+			buildPhases = (
+				7B1494391731B7CD00F5CB5E /* Sources */,
+				7B14943A1731B7CD00F5CB5E /* Frameworks */,
+				7B14943B1731B7CD00F5CB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deckbuilder;
+			productName = VGApp;
+			productReference = 01510971181F06A900354D3B /* Deckbuilder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1494351731B7CD00F5CB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daryl Fensom";
+				TargetAttributes = {
+					7B14943C1731B7CD00F5CB5E = {
+						DevelopmentTeam = U57A6XG887;
+					};
+				};
+			};
+			buildConfigurationList = 7B1494381731B7CD00F5CB5E /* Build configuration list for PBXProject "Deckbuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B1494341731B7CD00F5CB5E;
+			productRefGroup = 7B1494341731B7CD00F5CB5E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B14943C1731B7CD00F5CB5E /* Deckbuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B14943B1731B7CD00F5CB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B14944B1731B7CD00F5CB5E /* InfoPlist.strings in Resources */,
+				7B14945D1731B7CE00F5CB5E /* VGViewController.xib in Resources */,
+				7B1494641731B88300F5CB5E /* VGCardsViewController.xib in Resources */,
+				7B6E315817392DC100425727 /* VGCardDetailViewController.xib in Resources */,
+				01FA654F17F58D1C00A2E762 /* global.png in Resources */,
+				7BD2ADC1173D1AD700D2E9FB /* VGAdvancedSearchView.xib in Resources */,
+				01FA654B17F58C8200A2E762 /* look.png in Resources */,
+				7B21A76F1AB4C88900655EFB /* Images.xcassets in Resources */,
+				7BD2ADC3173EEF7200D2E9FB /* VGDeckView.xib in Resources */,
+				7BD2ADCB173EFC0800D2E9FB /* 10-medical.png in Resources */,
+				7BD2ADD5173FA96800D2E9FB /* VGAddCardViewController.xib in Resources */,
+				7BE668CF1742771C0019D010 /* VGDeckViewerViewController.xib in Resources */,
+				7BE668D1174285B60019D010 /* DeckLogo.png in Resources */,
+				7BE668D91742C8040019D010 /* VGDeckCell.xib in Resources */,
+				7BAAFD3F1742ED8A001B16D5 /* Remove-icon.png in Resources */,
+				7BCE67391745AF0E003D50DC /* VGHandViewController.xib in Resources */,
+				7BC219A7174815CA00D89773 /* plus_add_green.png in Resources */,
+				7B21A76D1AB445DB00655EFB /* facebook-icon.png in Resources */,
+				7BC219AB1748DF6400D89773 /* 44-shoebox.png in Resources */,
+				7BC219AD1748DFD200D89773 /* 06-magnify.png in Resources */,
+				7BC219AF1748E7E000D89773 /* 57-download.png in Resources */,
+				7BC219B11748E91E00D89773 /* 162-receipt.png in Resources */,
+				7BC219B6174918F400D89773 /* 18-envelope.png in Resources */,
+				7B46C03F17498FE300838B17 /* background_linen.png in Resources */,
+				7BF21EB9174AB69700B3F9AC /* vgappicon.png in Resources */,
+				7BF21EBB174AB69900B3F9AC /* vgapplogoretina.png in Resources */,
+				01FA654C17F58C8200A2E762 /* download.png in Resources */,
+				7BF21EBD174AB6FA00B3F9AC /* Default.png in Resources */,
+				7BF21EBF174AB70000B3F9AC /* Default@2x.png in Resources */,
+				01FA654D17F58C8200A2E762 /* note.png in Resources */,
+				7BF21EC1174AB70700B3F9AC /* Default-568h@2x.png in Resources */,
+				7B0391561779C7E4007900F4 /* deckBuilderLogo.png in Resources */,
+				7B51B24217ABAEC800D65303 /* VGCardCellView.xib in Resources */,
+				7B07F8CF17B3ACFA00A9672F /* placeholderCard.png in Resources */,
+				7B685AC71A9D1F1E00EA51BB /* Lato-Regular.ttf in Resources */,
+				7BCF712A17BD166D001C2B60 /* VGSelectSetViewController.xib in Resources */,
+				7B4069C617BE7E1F00F65FDA /* background_grey.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1494391731B7CD00F5CB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC219B41748FC6A00D89773 /* MBProgressHUD.m in Sources */,
+				7B6E317D173A89DB00425727 /* VGCard.m in Sources */,
+				7B14944D1731B7CD00F5CB5E /* main.m in Sources */,
+				7B1494511731B7CD00F5CB5E /* VGAppDelegate.m in Sources */,
+				7B14945A1731B7CE00F5CB5E /* VGViewController.m in Sources */,
+				7B1494671731BC6B00F5CB5E /* VGCardsViewController.m in Sources */,
+				7B6E317017399DED00425727 /* VGCardsXMLParser.m in Sources */,
+				7B6E317A173A744A00425727 /* VGCardDetailViewController.m in Sources */,
+				7B81D34D173BECB200C4869C /* VGAdvancedSearchViewController.m in Sources */,
+				7BD2ADBD173D120D00D2E9FB /* VGBlankViewController.m in Sources */,
+				7BD2ADC6173EF1AA00D2E9FB /* VGDeck.m in Sources */,
+				7BD2ADC9173EF37E00D2E9FB /* VGDeckViewController.m in Sources */,
+				7BD2ADD4173FA96800D2E9FB /* VGAddCardViewController.m in Sources */,
+				7BD2ADDC1740488400D2E9FB /* VGDecksXMLParser.m in Sources */,
+				7BE668CE1742771C0019D010 /* VGDeckViewerViewController.m in Sources */,
+				7BE668D4174288B70019D010 /* VGDeckCell.m in Sources */,
+				7BCE67371745AED1003D50DC /* VGHandViewController.m in Sources */,
+				7BCCECCB176496A800DBE0A9 /* SBJsonParser.m in Sources */,
+				7BCCECCC176496A800DBE0A9 /* SBJsonStreamParser.m in Sources */,
+				7BCCECCD176496A800DBE0A9 /* SBJsonStreamParserAccumulator.m in Sources */,
+				7BCCECCE176496A800DBE0A9 /* SBJsonStreamParserAdapter.m in Sources */,
+				7BCCECCF176496A800DBE0A9 /* SBJsonStreamParserState.m in Sources */,
+				7BCCECD0176496A800DBE0A9 /* SBJsonStreamTokeniser.m in Sources */,
+				7BCCECD1176496A800DBE0A9 /* SBJsonStreamWriter.m in Sources */,
+				7BCCECD2176496A800DBE0A9 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				7BCCECD3176496A800DBE0A9 /* SBJsonStreamWriterState.m in Sources */,
+				7BCCECD4176496A800DBE0A9 /* SBJsonWriter.m in Sources */,
+				7B51B24517ABB30200D65303 /* VGCardCell.m in Sources */,
+				7B51B24817ABE68900D65303 /* VGImageToGrab.m in Sources */,
+				7B9FC37A17B138000088B734 /* VGDownloadImageOperation.m in Sources */,
+				7BEF1E4617BBC18E0094764A /* VGVanguardSelectorActionSheetDelegate.m in Sources */,
+				7BCF712817BD0D24001C2B60 /* VGSelectSetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B1494491731B7CD00F5CB5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B14944A1731B7CD00F5CB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B14945B1731B7CE00F5CB5E /* VGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B14945C1731B7CE00F5CB5E /* en */,
+			);
+			name = VGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B14945E1731B7CE00F5CB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daryl Fensom (U57A6XG887)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daryl Fensom (U57A6XG887)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "57C240DB-E70A-465E-8F7B-6B19F57BCBD1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "57C240DB-E70A-465E-8F7B-6B19F57BCBD1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B14945F1731B7CE00F5CB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daryl Fensom (YK6V2XVMFB)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Daryl Fensom (U57A6XG887)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "57C240DB-E70A-465E-8F7B-6B19F57BCBD1";
+				"PROVISIONING_PROFILE[sdk=*]" = "57C240DB-E70A-465E-8F7B-6B19F57BCBD1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B1494611731B7CE00F5CB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Daryl Fensom (YK6V2XVMFB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daryl Fensom (YK6V2XVMFB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VGApp/Deckbuilder-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "VGApp/Deckbuilder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = Deckbuilder;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B1494621731B7CE00F5CB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Daryl Fensom (YK6V2XVMFB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daryl Fensom (YK6V2XVMFB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VGApp/Deckbuilder-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "VGApp/Deckbuilder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = Deckbuilder;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1494381731B7CD00F5CB5E /* Build configuration list for PBXProject "Deckbuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B14945E1731B7CE00F5CB5E /* Debug */,
+				7B14945F1731B7CE00F5CB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1494601731B7CE00F5CB5E /* Build configuration list for PBXNativeTarget "Deckbuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1494611731B7CE00F5CB5E /* Debug */,
+				7B1494621731B7CE00F5CB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1494351731B7CD00F5CB5E /* Project object */;
+}
